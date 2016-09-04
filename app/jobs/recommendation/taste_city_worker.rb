@@ -1,0 +1,7 @@
+class Recommendation::TasteCityWorker < ActiveJob::Base
+  queue_as :recommendations
+
+  def perform(city)
+    Recommendation::Parser.process_city(city)
+  end
+end

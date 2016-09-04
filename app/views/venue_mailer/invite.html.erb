@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,700' rel='stylesheet' type='text/css'>
+	</head>
+
+<!-- this code is the same as for the event_mailer.invite()... refactor once the specifications for venue mailer is known... -->
+	<body class="body" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;padding: 0; font-family: 'Titillium Web', sans-serif;font-size: 12px; color: #4b4b4b; mso-line-height-rule: exactly;line-height: 1.5em;width: 100%; min-width: 600px;">
+		<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#eaeaea" align="center" style="padding: 0;margin: 0;border-collapse: collapse;" class="bg">
+			<tbody>
+				<tr>
+					<td style="border-collapse: collapse;" width="100%" align="center">
+						<table border="0" cellpadding="0" cellspacing="0" width="600" bgcolor="#ffffff" style="padding: 0;margin: 0;border-collapse: collapse; margin: auto;" class="table600full">
+
+							<!-- HEADER LINK -->
+							<%= render 'shared/mailers/partials/header_link', :notification => @notification %>
+
+							<!-- HEADER GRAPHIC -->
+							<%= render 'shared/mailers/partials/header_graphic' %>
+
+							<!-- Friend invite-->
+							<%= render 'shared/mailers/event_mailer/friend_invite', :notification => @notification %>
+
+							<!-- Event block -->
+							<%= render 'shared/mailers/event_mailer/events', :notification => @notification, :event => @venue %>
+
+			            <!-- About Pulsr -->
+						   <%= render 'shared/mailers/partials/about_pulsr' %>
+
+						   <!-- FOOTER BLOCK  -->
+							<%= render 'shared/mailers/partials/footer' %>
+
+							<!-- FOOTER SPACER -->
+							<%= render 'shared/mailers/partials/footer_spacer' %>
+
+	         		</table>
+	      		</td>
+	   		</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

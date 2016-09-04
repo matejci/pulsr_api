@@ -1,0 +1,100 @@
+@media only screen and (max-width: 600px)  {
+  body {font-family: 'Titillium Web', Helvetica, Arial, sans-serif !important;}
+  table[class=table600con] img { max-width: 100% !important; width: auto !important; margin: auto !important; height: auto !important; }
+
+  div[class=wrapper] { width: 100% !important; background: #eaeaea; }
+  div[class=wrapperout], td[class=grid_block] table { width: 100% !important; }
+  table[class=table600none] { height: 0 !important; width: 0 !important; display: none !important; }
+  table[class=table600full] { width: 100% !important; }
+  
+  table[class=table600con], table[class=table600] { width: 100% !important; }
+  td[class=fw_full], td[class=fw_half], td[class=grid_block], td[class=grid_block_no_bot] { width: calc(100% - 60px) !important; display: block !important;}
+
+  td[class=spacer], table[class=line] { height: 0 !important; width: 0 !important; display: none !important; }
+
+  td[class=grid_block] { width: 100% !important; text-align: center !important; margin: 15px 0 !important;}
+  td[class=grid_block_no_bot] {width: 100% !important; text-align: center !important; margin:0 !important;}
+  td[class=grid_block_nopad] { width: 100% !important; padding: 0 !important; display: block !important; text-align: center !important;}
+  td[class=grid_block] table, td[class=grid_block_no_bot] table { margin: auto !important; }
+
+  tr[class=scaleimage] img { width: auto !important}
+
+  td[class=boxpadding] { width: 7% !important; }
+  td[class=boxcontent] { width: 86% !important; }
+  td[class=boxcontent_cen] { width: 86% !important; text-align: center !important; }
+
+  div[class=divider] { width: 70%; height: 1px; border-bottom: 1px solid #aaaaaa; margin: 25px auto 0;}
+       
+       td[class=grid_block] table[class=button_second], td[class=button] { margin-top: 10px !important; }
+       
+       table[class=buttonwrap], table[class=buttonwrap] tbody, table[class=buttonwrap] tr, td[class=button] { width: 100% !important; display: block; height: auto; }
+       
+       td[class=button] { padding: 5px 0; }
+   
+   a[class=foot-social] {margin-top:-12px !important;}
+   
+   h1 span[class=main-heading] {font-size:34px !important;}
+   h2 span[class=main-heading] {font-size:26px !important;}
+
+       /* tr[class=seperator_nomobile] { display: none; } */
+  }
+  
+  .onboarding_invite-message{
+    font-size:24px; 
+    line-height:36px; 
+    margin:0 auto; 
+    font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+  }
+
+  .friend_invite-message, .event_invite-message{
+    font-size:24px; 
+    line-height:36px; 
+    margin-top:0; 
+    margin-bottom:20px; 
+    font-family: 'Titillium Web', 
+    Helvetica, Arial, sans-serif;
+  }
+
+  a{
+    text-decoration:none;
+    color:#961067;
+  	
+  	&:hover {
+  		color:#7C0D55;	
+  	}
+  .purp-bg a{
+    color:#fff;
+  }
+  .purp-bg a:hover{
+    color:#fff;
+  }
+  a[class=purp-bg-btn]{
+    text-decoration:none;
+    color:#961067;
+  }
+  a[class=purp-bg-btn]:hover{
+    color:#7C0D55;
+  }
+  a[class=purp-btn]{
+    text-decoration:none;
+    color:#fff;
+    background-color:#961067;
+  }
+  a[class=purp-btn]:hover{
+    color:#fff;
+    background-color:#7C0D55;
+  }
+  a[class=foot-social]{
+    margin-top:6px;
+    display:inline-block;
+  }
+  .ReadMsgBody { width: 100%; }
+  .ExternalClass { width: 100%; }
+  .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
+  #outlook a { padding: 0; }
+  span.yshortcuts { color:#000; background-color:none; border:none;}
+  span.yshortcuts:hover,
+  span.yshortcuts:active,
+  span.yshortcuts:focus {color:#000; background-color:none; border:none;}
+  body[class=body] { min-width: 0 !important; }
+  table {border-collapse: collapse;}

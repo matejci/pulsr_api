@@ -1,0 +1,13 @@
+---
+:concurrency: 20
+:pidfile: ./tmp/pids/sidekiq.pid
+:logfile: ./log/sidekiq.log
+:queues:
+  - default
+  - twitter_search
+  - photo_import
+  - instagram
+  - [high_priority, 3]
+  - [mailers, 3]
+  - [recommendations, 2]
+:daemon: false

@@ -1,0 +1,26 @@
+<repeater>
+	<tr mc:repeatable="block_3" style="background-color:#961067;">
+		<td width="100%" align="center" class="full_width" style="border-collapse: collapse;">
+			<div class="wrapper" style="width: 600px;margin: auto;">
+				<table border="0" bgcolor="#961067" cellpadding="0" cellspacing="0" width="600" class="table600con" style="border-collapse: collapse;">
+					<tr>
+						<td width="600" class="fw_full" style="padding:30px 40px; font-size: 24px; color: #fff;border-collapse: collapse; font-family: Helvetica, Arial, sans-serif;" align="center" mc:edit="main_article" bgcolor="#961067">
+							<multiline label="Main Intro">
+								<p style="font-size:24px; line-height:36px; margin-top:0; margin-bottom:20px; font-family: 'Titillium Web', Helvetica, Arial, sans-serif;">
+									<strong><%= notification.get_sender_display_name %></strong>&nbsp;<%= get_invitation_message(notification, "friend_invite") %>
+								</p>
+								<%= link_to get_email_deeplink_url(@notification), :class => "purp-bg-btn", :style => "display:inline-block; padding: 16px 26px; margin: 12px auto 16px; background-color:#ffffff; color:#961067; border-radius:26px; font-family: Helvetica, Arial, sans-serif;" do %>
+										<span style="font-family: 'Titillium Web', Helvetica, Arial, sans-serif;">
+											&nbsp;<%= get_app_button_text("friend_invite").html_safe %>
+											<span style="font-size:26px;">&rsaquo;</span>
+											&nbsp;
+										</span>
+								<% end %>
+							</multiline>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</td>
+	</tr>
+</repeater>

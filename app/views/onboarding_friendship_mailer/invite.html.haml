@@ -1,0 +1,23 @@
+%body.body{ style: "-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;padding: 0; font-family: 'Titillium Web', sans-serif;font-size: 12px; color: #4b4b4b; mso-line-height-rule: exactly;line-height: 1.5em;width: 100%; min-width: 600px;" }
+  
+  %table.bg{ align: "center", bgcolor: "#eaeaea", border: "0", cellpadding: "0", cellspacing: "0", style: "padding: 0;margin: 0;border-collapse: collapse;", width: "100%" }
+    %tbody
+      %tr
+        %td{ align: "center", style: "border-collapse: collapse;", width: "100%" }
+          %table.table600full{ bgcolor: "#ffffff", border: "0", cellpadding: "0", cellspacing: "0", style: "padding: 0;margin: 0;border-collapse: collapse; margin: auto;", width: "600" }
+            
+            
+            = render 'shared/mailers/partials/header_link'
+            = render 'shared/mailers/partials/header_graphic', type: 'onboarding_invite'
+
+            = render 'shared/mailers/partials/invite_from_friend_block', show_get_app_button: false, notification: @notification, type: 'onboarding_invite'
+            
+            / START BLOCK - Events Listings
+
+            - @onboarding_events.each do |event|
+              = render 'shared/mailers/partials/event_block', event: event
+
+            
+            = render 'shared/mailers/partials/about_pulsr'
+      = render 'shared/mailers/partials/footer'
+      

@@ -1,0 +1,8 @@
+Tag,is_regex,ignore_case,text_description
+tickets,0,1,the string 'tickets'
+"^([a-z0-9]+(-[a-z0-9]+)*\.)+[a-z]{2,}$
+",1,0,regex to match domains
+eventful,0,1,the string 'eventful'
+vividseats,0,1,the string 'vividseats'
+"http(s)?\:\/\/([a-z0-9]+(-[a-z0-9]+)*\.)+[a-z]{2,}$
+",1,0,regex to match URLs

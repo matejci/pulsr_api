@@ -1,0 +1,42 @@
+<tr>
+	<td width="100%" align="center" class="full_width" style="border-collapse: collapse;">
+		<div class="wrapper" style="width: 600px; margin: auto;">
+			<table border="0" bgcolor="#ffffff" cellpadding="0" cellspacing="0" width="600" class="table600" style="border-collapse: collapse; font-size: 12px;">
+				<tr>
+					<td width="30" class="spacer" style="border-collapse: collapse;"></td>
+					<td width="260" class="grid_block_no_bot" style="padding-top: 22px; padding-bottom: 12px;border-collapse: collapse;" align="left" valign="top">
+					   <%= link_to(image_tag(attachments['pulsr-logotype.png'].url, alt: "Pulsr", width: "94", border: "0", height: "18", style: "max-width: 94px; outline: none; text-decoration:none;-ms-interpolation-mode: bicubic; font-family: 'Titillium Web', Helvetica, Arial, sans-serif; color:#4b4b4b; font-size:16px; font-style:normal; font-weight:700;"),"http://pulsr.com", nil) %>
+						<p style="color:#999; font-size:12px; margin:2px 0 10px; font-family: Helvetica, Arial, sans-serif;">
+							<span style="font-family: 'Titillium Web', Helvetica, Arial, sans-serif;">Discovering the magic of Austin</span>
+						</p>
+					</td>
+					<td width="20" class="spacer" style="border-collapse: collapse;"></td>
+					<td width="260" class="grid_block_no_bot" style="padding-top: 20px; padding-bottom: 20px; border-collapse: collapse;" align="right" valign="top">
+						<span>
+							 <%= link_to( image_tag(attachments['icon-fb.png'].url, alt: "Facebook", border: "0", height: "24", style: "font-family: 'Titillium Web', Helvetica, Arial, sans-serif; color:#4b4b4b; font-size:9px; font-style:normal; font-weight:400;", width: "24"), "https://www.facebook.com/pulsrapp", :class => "foot-social") %>
+
+							<%= link_to( image_tag(attachments['icon-tw.png'].url, alt: "Twitter", border: "0", height: "24", style: "font-family: 'Titillium Web', Helvetica, Arial, sans-serif; color:#4b4b4b; font-size:9px; font-style:normal; font-weight:400;", width: "24" ), "https://twitter.com/pulsrapp", :class => 'foot-social', :style => "margin-left:20px;") %>
+						</span>
+					</td>
+					<td width="30" class="spacer" style="border-collapse: collapse;"></td>
+				</tr>
+			</table>
+
+			<table border="0" bgcolor="#eaeaea" cellpadding="0" cellspacing="0" width="600" class="table600" style="border-collapse: collapse; font-size: 10pt;" bgcolor="#242424">
+				<tr style="background: #eaeaea">
+					<td width="600" class="fw_full" style="padding: 16px 30px 8px; font-size: 12px;color: #999;border-collapse: collapse;font-family: 'Titillium Web', sans-serif;" align="center" bgcolor="#eaeaea">
+						<span mc:edit="footer_link" style="display:block;">
+							<singleline label="Footer Text">
+								You're getting this email because you signed up at <a href="http://pulsr.com" style="color: #4B4B4B;">pulsr.com</a>
+							</singleline>&nbsp;&nbsp;
+							<span style="display:inline-block;">
+								Click here to
+								<%= link_to 'unsubscribe', "*|UNSUB|*", style: "color: #4B4B4B;text-decoration: none;" %>
+							</span>
+						</span>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</td>
+</tr>

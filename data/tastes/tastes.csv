@@ -1,0 +1,46 @@
+id,import_string,title,description,example,category
+1,local_and_neighborhood_pride,Neighborhood ,"Events that deal with specific neighborhood or local topics, issues, or interest groups, focused on community and local/city/neighborhood celebration ","street festival, block parties, local fairs ",Event
+2,pop_rock,Pop,Events relating to popular rock music and pop music in general,"Katy Perry concert, Maroon 5 concert",Event
+3,alternative_rock,Indie and Alternative,"Events relating to indie or alternative rock, including Indie pop, Metal, Punk Rock, etc"," Radiohead concert, Metallica concert",Event
+4,electronic_music,Electronic and Dance,Events relating to electronic or dance music and the associated lifestyle and/or its subculture.,"EDM or Drum and Bass shows, Raves, events related to the “Candy Kid” subculture ",Event
+5,hip_hop_and_rnb,Hip Hop,"events relating to hip hop music, and the associated lifestyle, as well as RnB singers and music","Kanye West show, rap-battle open mic, Usher in concert ",Event
+6,jazz_and_blues,Jazz and Blues,Events relating to jazz and blues music,"the elephant room (Austin Based Jazz Club), Jazz concert, bb king in concert",Event
+7,country_and_folk,Country and Folk,"Events relating to country and folk music, and the related sub cultures.","Tim McGraw concert, line dancing event, Bluegrass festival",Event
+8,festivals_fairs_and_attractions,"Festivals, Fairs, and Attractions","Large attractions that are not necessarily part of a single interest group, but are in and of themselves a spectacle or experience ","parades, county fairs, circus, monster truck rally",Event
+9,movies_and_cinema,Cinema,"Events relating to Movies, Film, and cinema as both an art and fandom. Note that this covers events beyond just the normal movie theatre attendance, and has many items treating film as an artistic medium. ","Film festivals, director retrospectives, private or limited screenings",Event
+10,classical_music,Classical Music,"events relating to classical music, and traditional music mediums","Symphonies, opera, ballet",Event
+11,educational_events,Educational ,Events meant to be educational,"Seminars, Museum tours, workshops",Event
+12,seasonal_and_holidays,Seasonal and Holidays,Events centered around the season or specific holidays,"Christmas events, fall festivals, spring fairs",Event
+13,outdoor_recreation,Outdoor Recration,events centered around outdoor lifestyles and interest,"hiking events, marathons, kayaking, rock climbing",Event
+14,theater_and_performing_arts,"Theater and Performing Arts","Events relating to the Theatre, Dramtic arts, and other preformance art mediums","Plays, Ballet, Dance, Musical Theatre",Event
+15,comedy,Comedy,"vents relating to comedy as a performance medium"," stand up comedy, sketch comedy",Event
+16,art_and_culture,Art and Culture,"events relating to art and high culture, including literature, performance art, conceptual art, museums etc","ex: art shows, painting, literature, museum events",Event
+17,museums_and_art_galleries,Museums and Art Galleries,locations related to the curations of items for review,Art galleries,"Non-food and drink location"
+18,sports,Sporting Events,"events relating to sports, both professional, minor league, recreational and fitness","pro sports games, rec leagues, fitness events",Event
+19,college_life_and_alumni,College Life and Alumni,Events relating to the communities that exist around universities,"NCAA events, Alumni organizations, events around college campuses",Event
+20,group_games,Group Games,Locations with activities good for groups of people to hang out and do,"Bowling, mini-golf, pool and billiards, top golf",Non-food and drink location
+21,hookah_lounges,Hookah Lounges,locations relating to hookah lounges,Hookah lounges,Non-food and drink location
+22,landmarks_and_monuments,Landmarks and Monuments,locations relating to specific architectural or natural constructs that are iconic,"The statue of liberty, the congress street bridge",Non-food and drink location
+23,arcades_and_amusement_park,Arcades and Amusement parks,"Locations relating to engaging in fun, carnival, or video game related activities","Pinballz (ATX), Six Flags",Non-food and drink location
+24,outdoor_lifestyle,Outdoor and Adventure,"locations related to the outdoor lifestyle, and natural wonders","Hiking trails, kayaking, beaches",Non-food and drink location
+25,sports_and_recreation,Sports and Recreation,locations related to the playing of sports or other athletic endeavours,"tennis courts, public parks, golf courses, basketball courts",Non-food and drink location
+26,hip_shopping,Hip Shopping,Locations related to shopping for cool or interesting things and clothing (as opposed to shopping at big chains or for everyday items),"clothing, thrift stores,vintage and antiques, bookstores",Non-food and drink location
+27,shopping_for_gifts_novelties_and_collectibles,"Gifts, Novelties, and Collectibles.","shopping for knick knacks, art, collectables, souvenirs etc ",Uncommon Object (ATX),Non-food and drink location
+28,yoga_and_spas,Yoga and Spas,"Location associated with relaxation, massage, Yoga, and others of that Ilk. Include both businesses and services, we well as general locations","Yoga facilities, spas, massage parlours, acupuncture",Non-food and drink location
+29,karaoke,Karaoke,"Locations relating to karaoke","karaoke bars, facilities that have karaoke",Non-food and drink location
+30,divebars,Dive Bars,"Bars that are low key, rough around the edges, and relaxed.",The Jackelope (ATX),Food and Drink location
+31,upscale_bars,Upscale Bars,"Bars that cater to a more chic and affluent crowd, often serving top shelf liquor with a stylish decor","Wine bars, chic nightclubs, fancy lounges",Food and Drink location
+32,sports_bars,Sports Bars,Bars that focus on sports and sports fandom,,Food and Drink location
+33,nightclubs_and_dance_clubs,Night Clubs,"Bars and Nightclubs that cater to EDM, hip hop, and other forms of dance music and culture",Barcelona (ATX),Food and Drink location
+34,pizza_places,Pizza,restaurants that specialize in pizza,,Food and Drink location
+35,italian_food,Italian Food,"Restaurants that specialize in italian food",,Food and Drink location
+36,mexican_food,Mexican Food,"Restaurants that specialize in serving mexican food or tex mex",,Food and Drink location
+37,asian_food,Asian Food,"restaurants that specialize in Asian food, including indian, chinese, Korean, Thai etc",,Food and Drink location
+38,icecream_juice_bars_and_smoothies,"Ice Cream, Juice Bars and Smoothies","Restaurants and food trucks/carts that serve ice cream and smoothies and other sweet drinks and food",,"Food and Drink location"
+39,food_trucks,Food Trucks,"Food trucks, carts, and other mobile food establishments",,Food and Drink location
+40,sushi,"Sushi","Restaurants that serve Sushi",,Food and Drink location
+41,coffee_shops,"Coffee Shops","Places that specialize in coffee",,Food and Drink location
+42,delis,"Delis","Places that serve sandwiches, deli meats, bagles, and the like","New World Deli",Food and Drink location
+43,burgers,"Burgers","Places that specialize in selling burgers and grilled/bbq meat","Hopdoddy, Shake Shack",Food and Drink location
+44,seafood,"Seafood","Places that specialize in Seafood and fish","ex: Perlas, Clark's Oyster Bar",Food and Drink location
+45,local_flavor_and_oddities,"Local Flavor","Interesting Local favorites that do not easily fall into more common categories, including small scale local landmarks, and other bits of character that make a city unique","Fortune tellers, the I love you so much wall, zany food trucks","Non-food and drink location"
